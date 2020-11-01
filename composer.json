@@ -1,0 +1,19 @@
+{
+    "name": "george1806/cbospaymentlib",
+    "description": "E-Payment Entry Point",
+    "type": "library",
+    "authors": [
+        {
+            "name": "george1806",
+            "email": "fortinatus.george1806@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"george1806\\cbospaymentlib\\": "src/"}
+    },
+    "require": {
+        "php": "^5.6|^7",
+        "stripe/stripe-php":"7.*"
+    }
+}
